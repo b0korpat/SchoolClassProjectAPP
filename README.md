@@ -28,7 +28,8 @@
 ### NegativPay
 ![image](https://github.com/b0korpat/SchoolClassProjectAPP/assets/75241605/06895cdf-b4c7-4722-97b6-57676e8e23a5)
 ### EmptyList
-![image](https://github.com/b0korpat/SchoolClassProjectAPP/assets/75241605/902ac72d-1b64-4eca-bd77-09d1f4cce9cc)
+![image](https://github.com/b0korpat/SchoolClassProjectAPP/assets/75241605/8b59260e-083c-4826-983c-4410427457d4)
+
 ## Tesztek futtatása
 ![image](https://github.com/b0korpat/SchoolClassProjectAPP/assets/75241605/77693bb5-1e68-45b1-a628-c96417ac10a5)
 
