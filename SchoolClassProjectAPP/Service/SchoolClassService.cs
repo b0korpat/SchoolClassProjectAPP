@@ -25,5 +25,17 @@ namespace SchoolClassProjectAPP.Service
                 .First();
             return $"{mostPaydClass.ClassYear}.{mostPaydClass.ClassID}";
         }
+        public void TenMonthPaymentForThirtyStudent()
+        {
+
+            List<SchoolClass> classes = _schoolClassRepo.FindAll();
+            foreach (SchoolClass schoolClass in classes)
+            {
+                Console.WriteLine($"{schoolClass.ClassYear}.{schoolClass.ClassID} össze befizetett osztálypénze: {schoolClass.StudentMonhlyDeposit*300}");
+            }
+
+
+
+        }
     }
 }

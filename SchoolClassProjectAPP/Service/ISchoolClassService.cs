@@ -9,5 +9,6 @@ namespace SchoolClassProjectAPP.Service
     public interface ISchoolClassService
     {
         public string MostPaydSchoolClass();
+        public void TenMonthPaymentForThirtyStudent();
     }
 }

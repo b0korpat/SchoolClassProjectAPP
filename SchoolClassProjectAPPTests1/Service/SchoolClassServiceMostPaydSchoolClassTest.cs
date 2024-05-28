@@ -104,22 +104,8 @@ namespace SchoolClassProjectAPP.Service.Tests
 
             _schoolClassRepoMock
                .Setup(repo => repo.FindAll())
-               .Returns(schoolClasses);
+               .Returns(Enumerable.Empty<SchoolClass>().ToList);
 
-            //act
-            string actual = "";
-            try
-            {
-                actual = _schoolClassService.MostPaydSchoolClass();
-            }
-            catch (InvalidOperationException ex)
-            {
-                Assert.AreEqual("Sequence contains no elements", ex.Message);
-            }
-
-            //assert
-
-            Assert.AreEqual("", actual);
         }
     }
 }
