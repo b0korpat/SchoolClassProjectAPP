@@ -17,18 +17,19 @@
 ## Teszt esetek
 ![image](https://github.com/b0korpat/SchoolClassProjectAPP/assets/75241605/200ce0d8-9f64-45c5-a644-8a6121b46365)
 ## Teszt kód
-# Mock
+### Mock
 ![image](https://github.com/b0korpat/SchoolClassProjectAPP/assets/75241605/c49a873c-6997-4690-9e98-577c83306406)
-# OnePaidMost
+### OnePaidMost
 ![image](https://github.com/b0korpat/SchoolClassProjectAPP/assets/75241605/9686382d-a33c-4429-a6e0-d9e22b4b5c7a)
-# AllPaidSame
+### AllPaidSame
 ![image](https://github.com/b0korpat/SchoolClassProjectAPP/assets/75241605/79c97aa0-04bb-4405-ba12-3514719c4e96)
-# OneClassOnly
+### OneClassOnly
 ![image](https://github.com/b0korpat/SchoolClassProjectAPP/assets/75241605/c057864b-a7e1-416d-bab9-44d7f1ec193f)
-# NegativPay
+### NegativPay
 ![image](https://github.com/b0korpat/SchoolClassProjectAPP/assets/75241605/06895cdf-b4c7-4722-97b6-57676e8e23a5)
-# EmptyList
-![image](https://github.com/b0korpat/SchoolClassProjectAPP/assets/75241605/902ac72d-1b64-4eca-bd77-09d1f4cce9cc)
+### EmptyList
+![image](https://github.com/b0korpat/SchoolClassProjectAPP/assets/75241605/8b59260e-083c-4826-983c-4410427457d4)
+
 ## Tesztek futtatása
 ![image](https://github.com/b0korpat/SchoolClassProjectAPP/assets/75241605/77693bb5-1e68-45b1-a628-c96417ac10a5)
 
