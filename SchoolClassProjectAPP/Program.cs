@@ -1,7 +1,6 @@
 ﻿using SchoolClassProjectAPP.Models;
 using SchoolClassProjectAPP.Service;
 using SchoolClassProjectAPP.Repos;
-using System.Reflection.Metadata.Ecma335;
 
 Console.WriteLine("hello");
 SchoolClass kilencA =  new SchoolClass(9,"a",7000,3);
