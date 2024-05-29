@@ -103,8 +103,14 @@ namespace SchoolClassProjectAPP.Service.Tests
             List<SchoolClass> schoolClasses = new List<SchoolClass>();
 
             _schoolClassRepoMock
-               .Setup(repo => repo.FindAll())
-               .Returns(Enumerable.Empty<SchoolClass>().ToList);
+              .Setup(repo => repo.FindAll())
+              .Returns(Enumerable.Empty<SchoolClass>().ToList);
+
+            //act
+            string actual = _schoolClassService.MostPaydSchoolClass();
+
+            //assert
+            Assert.IsNull(actual); // or throw an exception if you want to handle this case specifically
 
         }
     }

@@ -19,16 +19,24 @@ namespace SchoolClassProjectAPP.Service
 
         public string MostPaydSchoolClass()
         {
-            SchoolClass mostPaydClass = _schoolClassRepo
-                .FindAll()
+            List<SchoolClass> schoolClasses = _schoolClassRepo.FindAll();
+
+            if (schoolClasses.Count == 0)
+            {
+                return null;
+            }
+
+            SchoolClass mostPaydClass = schoolClasses
                 .OrderByDescending(sc => sc.StudentMonhlyDeposit)
                 .First();
+
             return $"{mostPaydClass.ClassYear}.{mostPaydClass.ClassID}";
         }
         public void TenMonthPaymentForThirtyStudent()
         {
 
             List<SchoolClass> classes = _schoolClassRepo.FindAll();
+
             foreach (SchoolClass schoolClass in classes)
             {
                 Console.WriteLine($"{schoolClass.ClassYear}.{schoolClass.ClassID} össze befizetett osztálypénze: {schoolClass.StudentMonhlyDeposit*300}");
